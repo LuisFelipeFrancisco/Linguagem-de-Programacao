@@ -1,6 +1,4 @@
-# Linguagem de Programação 2º ADS Noturno
-
-Trabalho: Jogo → Adivinha o número<br/>
+# Trabalho: Jogo → Adivinha o número<br/>
 Criar um jogo em C++ que faça o jogo de adivinhar um número entre 0 e 100, entre
 um usuário e o computador.<br/>
 Na vez do Usuário<br/>
