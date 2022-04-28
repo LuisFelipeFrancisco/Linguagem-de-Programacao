@@ -1,0 +1,15 @@
+#include <stdio.h>
+float calcula_area (float b, float h)
+{ float a;
+a = b * h;
+return a;
+}
+main()
+{
+float base, altura;
+printf(“Base: “);
+scanf(“%f”, &base);
+printf(“\nAltura: “);
+scanf(“%f”, &altura);
+printf(“\n\nArea = %.2f”, calcula_area(base,altura));
+}
