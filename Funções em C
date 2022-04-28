@@ -1,0 +1,25 @@
+1. Escrever uma função que receba como parâmetros de entrada as dimensões de um retângulo
+e retorne o valor da área corresponde as dimensões passadas.
+float calcula_area (float b, float h)
+{ float a;
+a = b * h;
+return a;
+}
+
+2. Escrever uma função que receba como parâmetro de entrada um vetor de 10 posições de
+inteiros e retorne a soma de todos os valores do vetor.
+int soma_valores (int vetor[10])
+{ int s=0, i;
+for (i=0; i<10; i++)
+s = s + vetor[i];
+return s;
+}
+
+3. Escrever uma função que receba com parâmetro de entrada um vetor de 10 posições de
+inteiros e um valor x também inteiro, retornar o vetor multiplicado por x.
+void mult_vetor (int vetor[10], int x)
+{ int i;
+for (i=0; i<10; i++)
+vetor[i]= vetor[i]*x;
+return;
+}
