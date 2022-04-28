@@ -1,0 +1,23 @@
+#include <stdio.h>
+void mult_vetor (int vetor[10], int x)
+{ int i;
+for (i=0; i<10; i++)
+vetor[i]= vetor[i]*x;
+return;
+}
+main()
+{
+int v[10], n, i;
+printf(“Leitura dos elementos do vetor\n\n”);
+for(i=0;i<10;i++)
+{
+printf(“\nElemento[%d]; “,i);
+scanf(“%d”, &v[i]);
+}
+printf(“\n\nValor: “);
+scanf(“%d”, &n);
+mult_vetor(v, n);
+printf(“\n\nVetor multiplicado por n: ”);
+for(i=0; i<10; i++)
+printf(“%d “,v[i]);
+}
