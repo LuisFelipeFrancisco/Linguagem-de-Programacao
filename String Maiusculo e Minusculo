@@ -12,7 +12,7 @@ main ()
 	fflush (stdin);
 	gets (frase);
 	printf ("Frase em Maiusculo: ");
-	 while (frase[i])
+	while (frase[i])
   {
     convertido=frase[i];
     putchar (toupper(convertido));
