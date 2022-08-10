@@ -1,2 +1,3 @@
-# Bem vindo ao meu Git!!
-Aqui vou colocar os exercícios e projetos do curso de ADS na FATEC Ourinhos.
+# Thanks for dropping by, hope you find some of my work interesting.
+
+Here i will publish some of the activities and projects of my current course.
