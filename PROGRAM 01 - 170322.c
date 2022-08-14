@@ -27,5 +27,5 @@ main ()
             printf("%4d", mat[i][j]);
         printf("\n");
     }
-    printf("\n\nSoma da Diagonal Principal: %d", soma);
+    printf("\n\nSoma da Diagonal Principal: %d\n", soma);
 }
