@@ -5,7 +5,7 @@ main()
 /* A program that reads a matrix and prints its inverse. */
     int i, j, mat1[5][5], mat2[5][5];
 
-/* Asking the user to input the elements of the matrix. */
+/* Asking the user to input the elements of the matrix.*/
     for (i = 0; i < 5; i++)
         for (j = 0; j < 5; j++)
         {
