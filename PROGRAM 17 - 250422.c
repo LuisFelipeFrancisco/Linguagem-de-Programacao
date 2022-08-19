@@ -1,15 +1,15 @@
 #include <stdio.h>
 #include <string.h>
 
-main()
+int main()
 {
 /* Asking for two strings, then it is comparing them, then it is copying the second string to the first
 string, then it is concatenating the two strings. */
     char srt1[20], srt2[20];
     printf("Palavra 1: ");
-        gets(srt1);
+        fgets(srt1, 20, stdin);
     printf("Palavra 2: ");
-        gets(srt2);
+        fgets(srt2, 20, stdin);
     printf("\n\nPalavra 1: ");
         puts(srt1);
     printf("\n\nPalavra 2: ");
