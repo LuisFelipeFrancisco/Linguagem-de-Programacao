@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-main()
+int main()
 {
     int n, num, vet[100], inicio = 0, meio, fim = 99, qtdjog = 0, qtdmaq = 0, i, acertou = 0;
     char resp[10];
@@ -46,7 +46,7 @@ main()
         meio = (fim + inicio) / 2;
         qtdmaq++;
         printf("O numero pensado seria maior, menor ou igual a: %d\n", vet[meio]);
-        scanf("%s", resp);
+        scanf("%6s", resp);
 /* Comparing the string `resp` with the string `igual`. If they are equal, it sets the variable `acertou` to 1. */
         if (strcmp(resp, "igual") == 0)
             acertou = 1;
