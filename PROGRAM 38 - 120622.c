@@ -12,7 +12,7 @@ int main()
     fflush(stdin);
     
     printf("Frase: ");
-        gets(str1);
+        fgets(str1, 80, stdin);
     
 /* It's removing the spaces from the string. */
     for (i = 0; i < strlen(str1); i++)
