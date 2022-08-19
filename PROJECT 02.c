@@ -13,7 +13,7 @@ int main()
     printf("\n###################################################JOGO#DA#FORCA#######################################################\n");
     printf("#######################################################################################################################\n");
     printf("Palavra a ser adivinhada: ");
-    gets(palavra);
+    fgets(palavra, 20, stdin);
     system("cls");
 
 /* Creating a string of dashes that is the same length as the word to be guessed. */
