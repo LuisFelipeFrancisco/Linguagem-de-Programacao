@@ -20,7 +20,7 @@ main()
     char texto[80], letra;
     
     printf("TEXTO: ");
-        gets(texto);
+        fgets(texto, 80, stdin);
     printf("\nLETRA: ");
         scanf("%c", &letra);
     printf("\n\nO TEXTO POSSUI %d LETRAS %c", qtdletras(texto, letra, 0), letra);
