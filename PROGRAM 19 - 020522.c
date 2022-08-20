@@ -2,16 +2,16 @@
 #include <string.h>
 #include <ctype.h>
 
-main()
+int main()
 {
 /* A program that converts a string to uppercase and lowercase. */
     int i;
-    char frase[40], convertido;
+    char frase[80], convertido;
 
     printf("Digite uma frase: ");
 /* Flushing the input buffer. */
-    fflush(stdin);
-    gets(frase);
+    fflush(stdin); 
+    fgets (frase, 80, stdin);
     printf("Frase em Maiusculo: ");
     while (frase[i])
     {
