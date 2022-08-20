@@ -13,6 +13,6 @@ main()
     char palavra[100]; // cria uma variavel para armazenar a palavra.
 
     printf("Digite uma palavra:\n"); // pede para o usuario digitar uma palavra.
-        gets(palavra); // armazena a palavra no vetor.
+        fgets(palavra, 100, stdin); // armazena a palavra no vetor palavra.
     printf("\nNumeros de caracteres da palavra digitada: %d", contadordeletras(palavra, 0)); // imprime o numero de letras da palavra.
 }
