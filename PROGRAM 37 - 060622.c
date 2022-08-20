@@ -1,17 +1,14 @@
 #include <stdio.h>
 /* It counts the number of times a letter appears in a string */
 
-int qtdletras(char texto[], char l, int n)
+int qtdletras(char texto[], char l, int n) // Quantidade de letras.
 {
-/* Checking if the string is empty. */
-    if (texto[n] == '\0')
+    if (texto[n] == '\0') // Se o texto for nulo, retorna 0.
         return 0;
-/* Checking if the letter is equal to the letter in the string. If it is, it returns 1 + the number of times the letter appears in the string. */
-    else if (texto[n] == l)
-        return 1 + qtdletras(texto, l, n + 1);
-/* Returning the number of times the letter appears in the string. */
+    else if (texto[n] == l) // Se o texto for igual a letra, retorna 1 mais a quantidade de letras.
+        return 1 + qtdletras(texto, l, n + 1); // Retorna a quantidade de letras.
     else
-        return 0 + qtdletras(texto, l, n + 1);
+        return 0 + qtdletras(texto, l, n + 1); // Retorna 0.
 }
 
 main()
